@@ -19,7 +19,9 @@ def assign_rooms(array)
     assignArray
 end
 
-def printer(array)
-    puts(batch_badge_creator(array))
-    puts(assign_rooms(aray))
+def printer(attendees)
+    attendees.each_with_index do |name, index|
+        puts(batch_badge_creator(array)[index])
+        puts(assign_rooms(array)[index])
+    end
 end
