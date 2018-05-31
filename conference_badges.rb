@@ -28,8 +28,8 @@ def printer(attendees)
         puts(rooms[index])
     }
 
-    attendees.each_with_index do |name, index|
-        puts(batch_badge_creator(attendees)[index])
-        puts(assign_rooms(attendees)[index])
-    end
+    # attendees.each_with_index do |name, index|
+    #     puts(batch_badge_creator(attendees)[index])
+    #     puts(assign_rooms(attendees)[index])
+    # end
 end
